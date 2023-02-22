@@ -43,6 +43,21 @@ ________________________________________________________________
 
 git clone (paster https url from github code)           --> we get any project files in our local folder saved as Git folder
 
-________________________________________________________________
+_______________________________________________________________________________________
+
+git branch branch_name             ---> create branch of branch_name
+
+git checkout branch1               ---> move to beanch1
+git checkout master                ---> move to master
+
+
+If we create file inside beanch1 it will not display in master.
+*inside master :  git pull origin branch1         --> pull files from branch1 to master
+
+________________________________________________________________________________________
+
+ls --> shows all files inside current (master or branch) 
+
+________________________________________________________________________________________
 
  
