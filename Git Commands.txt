@@ -32,3 +32,17 @@ touch .gitignore           -----> if some file or folder don't want to upload on
 $ tail <path to id_rsa.pub> # Add this key to your GitHub account
 
 ________________________________________________________________
+
+git config --list                ---> all configurations we did 
+
+git config --get user.name       --> display username
+
+git config --get user.email      --> display email
+
+________________________________________________________________
+
+git clone (paster https url from github code)           --> we get any project files in our local folder saved as Git folder
+
+________________________________________________________________
+
+ 
