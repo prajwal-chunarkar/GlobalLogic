@@ -92,7 +92,8 @@ folderName/ ----it will ignore this folder | directory
 
 ______________________________________________________________________________________________________________________
 
-git remote -v ---> gives total branches master as well other
+git remote -v ---> shows origin repositories .git (fetch & push)
 git remote  --> gives in which branch we are currrently working
+git branch --> gives total branches master as well other and current branch is green font color
 
 ______________________________________________________________________________________________________________________
