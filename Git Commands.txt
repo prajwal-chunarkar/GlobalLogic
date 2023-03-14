@@ -91,3 +91,8 @@ mylogs.log
 folderName/ ----it will ignore this folder | directory
 
 ______________________________________________________________________________________________________________________
+
+git remote -v ---> gives total branches master as well other
+git remote  --> gives in which branch we are currrently working
+
+______________________________________________________________________________________________________________________
