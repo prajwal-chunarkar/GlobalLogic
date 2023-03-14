@@ -67,6 +67,12 @@ git checkout -f --> recover all files that was last commited
 ______________________________________________________________________________________________________________________
 
 If we made changes in files so before commiting that files in working area and last commited files in staging area. 
-git diff       --> gives difference between files in working and stafing area files as changed text or code exact that part
+git diff       --> gives difference between files in working and staging area files as changed text or code exact that part
 
+git diff --staged     --> if we moved files in staging area by (add .) it gives difference between last commited and staging area file
 ______________________________________________________________________________________________________________________
+
+if we remove file from staging area - 
+git rm --cached -r .  --> If we've already committed a bunch of unwanted files, you can unstage them and tell git to mark them as deleted (without actually deleting them)
+
+
