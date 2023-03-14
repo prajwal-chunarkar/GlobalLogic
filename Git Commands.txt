@@ -57,7 +57,11 @@ If we create file inside beanch1 it will not display in master.
 ________________________________________________________________________________________
 
 ls --> shows all files inside current (master or branch) 
+ls -lart 
 
 ________________________________________________________________________________________
 
- 
+If accidently delete files -->
+git checkout  --> shows files that can be recoverd means that last commited
+git checkout -f --> recover all files that was last commited
+________________________________________________________________________________________
