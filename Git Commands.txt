@@ -41,7 +41,7 @@ git config --get user.email      --> display email
 
 ________________________________________________________________
 
-git clone (paster https url from github code)           --> we get any project files in our local folder saved as Git folder
+git clone (paste https url from github code)           --> we get any project files in our local folder saved as Git folder
 
 _______________________________________________________________________________________
 
