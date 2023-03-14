@@ -75,4 +75,19 @@ ________________________________________________________________________________
 if we remove file from staging area - 
 git rm --cached -r .  --> If we've already committed a bunch of unwanted files, you can unstage them and tell git to mark them as deleted (without actually deleting them)
 
+______________________________________________________________________________________________________________________
 
+git ignore --> If we dont upload some files, we just created just for our personal purpose
+
+touch .gitignore    --> create .gitignore
+(we have to write files name in .gitignore.txt file to ignore that files.)
+
+mylogs.log
+/mylogs.log --- this in the current directory, 
+                it will ignore files in which directory gitignore file is
+
+*.log      ---- it will ignore all the log files 
+*.cpp	   ---- it will ignore all the cpp files 
+folderName/ ----it will ignore this folder | directory
+
+______________________________________________________________________________________________________________________
